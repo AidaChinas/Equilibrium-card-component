@@ -62,6 +62,12 @@ hr {
     color: white;
 }
 
+.line {
+    padding: .5px;
+    background-color: hsl(215, 51%, 70%);
+    width: 100%;
+}
+
 .creator img {
     width: 25px;
     height: 25px;
