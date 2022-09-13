@@ -44,7 +44,7 @@ h1 {
 }
 
 #number {
-    font-size: 15px;
+    font-size: 13px;
     color: hsl(178, 100%, 50%)
 }
 
@@ -54,17 +54,13 @@ span {
 }
 
 .days {
-    margin-left: 70px;
-}
-
-/*line */
-hr {
-    color: white;
+    margin-left: 80px;
+    font-size: 13px;
 }
 
 .line {
     padding: .5px;
-    background-color: hsl(215, 51%, 70%);
+    background-color: hsl(215, 32%, 27%);
     width: 100%;
 }
 
@@ -78,6 +74,8 @@ hr {
 .creator {
     font-size: 15px;
     color: hsl(215, 51%, 70%);
+    padding-top: 10px;
+
 }
 
 .creator span {
