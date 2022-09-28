@@ -45,7 +45,9 @@ h1 {
 
 #number {
     font-size: 13px;
-    color: hsl(178, 100%, 50%)
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: flex-start;
 }
 
 span {
@@ -53,8 +55,8 @@ span {
     color: hsl(215, 51%, 70%)
 }
 
-.days {
-    margin-left: 80px;
+#days {
+    margin-left: 85px;
     font-size: 13px;
 }
 
@@ -75,7 +77,8 @@ span {
     font-size: 15px;
     color: hsl(215, 51%, 70%);
     padding-top: 10px;
-
+    display: flex;
+    justify-content: flex-start;
 }
 
 .creator span {
@@ -87,7 +90,8 @@ span {
 .attribution {
     font-size: 11px;
     text-align: center;
-    align-items: baseline
+    display: flex;
+    align-items: flex-end;
 }
 
 .attribution a {
